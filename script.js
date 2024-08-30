@@ -14,7 +14,7 @@ if (close) {
   });
 }
 
-let MainImage = document.getElementById("MainImage");
+let mainImage = document.getElementById("mainImage");
 let smallimg = document.getElementsByClassName("small-image");
 
 // smallimg[0].onclick = function () {
@@ -32,6 +32,6 @@ let smallimg = document.getElementsByClassName("small-image");
 
 for (let i = 0; i < smallimg.length; i++) {
   smallimg[i].onclick = function () {
-    MainImage.src = smallimg[i].src;
+    mainImage.src = smallimg[i].src;
   };
 }
